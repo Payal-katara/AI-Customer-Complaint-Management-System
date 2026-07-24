@@ -1,0 +1,14 @@
+{
+  "name": "ai-user-complaint-ms-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix frontend-react-redux-ui run dev",
+    "build": "npm --prefix frontend-react-redux-ui run build",
+    "preview": "npm --prefix frontend-react-redux-ui run preview",
+    "install:app": "npm --prefix frontend-react-redux-ui install",
+    "backend:install": "python -m pip install -r backend/requirements.txt",
+    "backend:dev": "python -m uvicorn app.main:app --reload --app-dir backend",
+    "postinstall": "npm --prefix frontend-react-redux-ui install"
+  }
+}
