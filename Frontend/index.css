@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(214, 183, 255, 0.35), transparent 35%),
+    linear-gradient(135deg, #f5f7ff 0%, #eef2ff 45%, #fff7ed 100%);
+  color: #122033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
